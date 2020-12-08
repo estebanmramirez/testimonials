@@ -1,0 +1,48 @@
+.main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 350px 200px 200px 200px;
+    grid-template-rows: repeat(2, 310px);
+    grid-template-areas: 
+        "box1 box1 box2 box5"
+        "box3 box4 box4 box5";
+    background-position: center center;
+}
+
+
+.main__container {
+    grid-area: box1;
+    margin: 0px;
+    width: 560px;
+    height: 310px;
+}
+
+.main__container--2 {
+    grid-area: box2; 
+    margin: 0px;
+    width: 200px;
+    height: 310px;
+}
+
+.main__container--3 {
+    grid-area: box3;
+    margin: 0px;
+    height: 295px;
+}
+
+.main__container--4 {
+    position: relative;
+    right: 50px;
+    z-index: 1;
+    grid-area: box4;
+    margin: 0px;
+    height: 295px;
+    width: 460px;
+}
+
+.main__container--5 {
+    grid-area: box5;
+    margin: 0px;
+    height: 620px;
+    width: 200px;
+}

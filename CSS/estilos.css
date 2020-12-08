@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+   background-color: hsl(210, 46%, 95%)
+}
+
+:root{
+ --violeta: hsl(263, 55%, 52%);
+ --azul-gris: hsl(263, 38%, 62%);
+ --azul-oscuro:  hsl(219, 29%, 14%);
+ --blanco: hsl(0, 0%, 100%);
+ --gris-claro: hsl(0, 0%, 81%);
+ --azul-claro: hsl(210, 46%, 95%);
+ --main-font: 'Barlow Semi Condensed', sans-serif;
+}
+
+.main__container { /*ESTILOS PRIMER CONTENEDOR*/
+    background-color: var(--violeta);
+    height: 330px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    padding: 20px 20px;
+}
+
+.container__div--img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid var(--blanco);
+    margin-right: 10px;
+}
+
+.main__container--div {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.container__div--h2 {
+    font-family: var(--main-font);
+    color: var(--blanco);
+}
+
+.container__div--h4 {
+    font-family: var(--main-font);
+    color: var(--azul-gris);
+}
+
+.container__p1{
+    font-family: var(--main-font);
+    color: var(--blanco);
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.container__p2 {
+    font-family: var(--main-font);
+    color: var(--azul-gris);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+/*TERMINA ESTILOS DEL PRIMER CONTAINER*/
+
+.main__container--2 { /*ESTILOS SEGUNDO CONTENEDOR*/
+    background-color: var(--azul-oscuro);
+    height: 230px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    padding: 20px 20px;
+}
+
+.main__container--3 { /*ESTILOS TERCER CONTENEDOR*/
+    background-color: var(--blanco);
+    height: 230px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    padding: 20px 20px;
+}
+
+.container3__div--h2 {
+    font-family: var(--main-font);
+    color: var(--azul-gris);
+    font-weight: bold;
+}
+
+.container3__p1 {
+    font-family: var(--main-font);
+    color: var(--azul-gris);
+    font-weight: bold;
+    font-size: 1.6rem; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+/*TERMINA ESTILOS TERCER CONTENEDOR*/
+
+.main__container--4 { /*ESTILOS CUARTO CONTENEDOR*/
+    background-color: var(--azul-gris);
+    height: 350px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    padding: 20px 20px;
+}
+
+.container4__p2 {
+    font-family: var(--main-font);
+    color: var(--blanco);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container4__div--h4 {
+    font-family: var(--main-font);
+    color: var(--blanco);
+}
+/*ESTILOS QUINTO CONTAINER*/
+
+.main__container--5 {
+    background-color: var(--gris-claro);
+    height: 295px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    padding: 20px 20px;
+}
+
+.container5__p2 {
+    font-family: var(--main-font);
+    color: var(--azul-gris);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
